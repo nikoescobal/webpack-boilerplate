@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nikoescobal/webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/nikoescobal/webpack-boilerplate#readme"
+  "homepage": "https://github.com/nikoescobal/webpack-boilerplate#readme",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.2.1"
+  }
 }
